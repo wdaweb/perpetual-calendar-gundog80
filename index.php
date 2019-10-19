@@ -244,12 +244,12 @@ if(!empty($_GET)){
             <td class=premonth>
                 <div class=arrowDiv >
                     <div class=leftArrow >
-                        <a style="display:inline-block; margin: 3px 0px ;" href="./claender.php?showtime=<?=$preMoonSta?>">上個月</a>
+                        <a style="display:inline-block; margin: 3px 0px ;" href="?showtime=<?=$preMoonSta?>">上個月</a>
                     </div>
                 </div>
             </td>
             <td class=form colspan=5>
-                <form action="./claender.php" method="POST">
+                <form action="?" method="POST">
                     西元 <input type="text" name="year" size=3 >
                     年 <input type="text" name="month" size=1>
                     月 <input type="text" name="date" size=1>
@@ -260,7 +260,7 @@ if(!empty($_GET)){
             <td class=nextmonth>
                 <div class=arrowDiv >
                     <div class=rightArrow >
-                <a style="display:inline-block; margin: 3px 0px ;" href="./claender.php?showtime=<?=$nextMoonSta?>">下個月</a>
+                <a style="display:inline-block; margin: 3px 0px ;" href="?showtime=<?=$nextMoonSta?>">下個月</a>
                     </div>
                 </div>
             </td>
