@@ -90,8 +90,10 @@ if(!empty($_GET)){
         font-size:20px;
     }
     .table .target{
-        color:red;
-        font-size:20px;
+        background-color:yellow;
+        /* font-size:20px; */
+        height:40px;
+        border-radius:20px;
     }
     .table .premonth{
         /* font-size:20px; */
@@ -215,7 +217,7 @@ if(!empty($_GET)){
                         }
                     }
                     if($temp==$showTime){   //判斷是否是指定日，並指定CSS
-                        $isTarget="targer";
+                        $isTarget="target";
                     }else{$isTarget="";}
                     if($isHoliday==1){
                         $isHoliday2="holiday";     //判斷是否為假日
